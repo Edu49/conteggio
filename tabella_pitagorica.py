@@ -1,11 +1,10 @@
-i = 1 
-a = 1
+r = 1 
 
-while i < 11:
-    print(a * i, end = " ")
-    a += 1
-    if a >= 11:
-        i += 1
-        a = 1
-    if a == 10:
-        print("")
+while r <= 10:
+    c = 1
+    while c <= 10:
+        print(r * c, end = " ")
+        c += 1 
+    print()
+    r += 1
+    
